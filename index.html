@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart-ticketing</title>
+    <!-- daisy UI and tailwind CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- linking the stylesheet -->
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+
+  <body>
+    <header class="font-raleway container mx-auto my-8 px-8 lg:px-24">
+        <!-- Navbar starts -->
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </div>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-[rgba(3,7,18,0.7)">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Destination</a></li>
+                <li><a>Search</a></li>
+              </ul>
+            </div>
+            <a class="font-extrabold text-4xl lg:text-5xl text-[rgb(3,7,18)]"
+              >P-Ticket</a>
+          </div>
+          <div class="navbar-center hidden lg:flex lg:items-center">
+            <ul class="menu menu-horizontal px-1 text-base font-medium text-[rgba(3,7,18,0.7)]">
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Destination</a></li>
+              <li><a>Search</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end ">
+            <div class="flex flex-row font-bold space-x-3 border border-greenish px-7 py-4 rounded-xl bg-[rgba(29,209,0,0.1)]">
+              <p class="text-[rgb(29,209,0)] text-xl font-bold">Bus</p>
+              <img src="images/bus-icon.png" height="20" width="30" />
+            </div>
+          </div>
+        </div>
+        <!-- Navbar ends -->
+    </header>
+    <main>
+      
+    </main>
+    <footer>
+      
+    </footer>
+  </body>
+</html>
